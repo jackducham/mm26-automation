@@ -1,0 +1,9 @@
+name: 'Add Team Label'
+description: 'Label an issue with the right team based on its repository'
+inputs:
+  myToken:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'add-team-label.js'
