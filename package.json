@@ -1,0 +1,23 @@
+{
+  "name": "mm26-automation",
+  "version": "1.0.0",
+  "description": "GitHub actions used to develop MechMania 26",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackducham/mm26-automation.git"
+  },
+  "author": "jackducham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackducham/mm26-automation/issues"
+  },
+  "homepage": "https://github.com/jackducham/mm26-automation#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.0",
+    "@actions/github": "^1.1.0"
+  }
+}
